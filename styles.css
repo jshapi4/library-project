@@ -1,0 +1,25 @@
+body {
+    background-image: linear-gradient(to bottom right,#e1e1e1, #e1c2cb); /* CSS gradient */
+    background-attachment: fixed; /* Ensures the gradient covers the entire viewport */
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.remove-btn {
+    background-color: #bf9494;
+}
+
+.book-info {
+    display: grid; /* Use CSS Grid */
+    grid-template-columns: auto 10% 10%; /* Two columns, one for each button */
+    gap: 5px; /* Gap between grid items */
+}
+
+.read-btn {
+    background-color: #7393B3;
+    margin-left: 10px; /* Add margin between Delete and Read buttons */
+}
